@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <com.teddybrothers.qrcodereader.IconView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/element_spacing_normal"
+        android:layout_marginBottom="@dimen/element_spacing_small"
+        android:layout_marginEnd="@dimen/element_spacing_xmedium"
+        android:background="@drawable/ripple_rounded"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        tools:text="@string/icon_notifications"
+        tools:textColor="@color/lightGreyBlue"/>
+</LinearLayout>

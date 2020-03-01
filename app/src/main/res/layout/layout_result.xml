@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/bottomSheetBadges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/content_padding_large"
+            android:paddingTop="@dimen/content_padding_medium"
+            android:paddingRight="@dimen/content_padding_large"
+            android:paddingBottom="@dimen/content_padding_medium">
+
+            <FrameLayout
+                android:id="@+id/background"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/element_spacing_normal"
+                android:background="@drawable/round_white"
+                android:backgroundTint="@color/greenFade"
+                android:gravity="center">
+
+                <com.teddybrothers.qrcodereader.IconView
+                    android:id="@+id/checkInOutIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/icon_qrcode_scan"
+                    android:textColor="?attr/colorPrimary"
+                    android:textSize="@dimen/font_size_xxxlarge" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/content_padding_normal"
+                android:textSize="@dimen/font_size_xlarge"
+                android:text="Your Result is"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                tools:text="Text" />
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/content_padding_normal"
+                android:background="@color/stroke"
+                android:lineSpacingExtra="3sp"
+                android:text="Once you gained enough points for this reward, we will let you know when you are able to redeem this reward."
+                android:textAlignment="center"
+                android:textColor="@color/brownGrey"
+                android:padding="@dimen/element_spacing_medium"
+                android:textSize="@dimen/font_size_xmedium" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/content_padding_normal"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/share"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/content_padding_normal"
+                    android:background="@drawable/round_white"
+                    android:backgroundTint="@color/greenFade"
+                    android:foreground="?selectableItemBackground"
+                    android:gravity="center">
+
+                    <com.teddybrothers.qrcodereader.IconView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/icon_share"
+                        android:textColor="?attr/colorPrimary"
+                        android:textSize="@dimen/font_size_xlarge" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/copy"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_white"
+                    android:foreground="?selectableItemBackground"
+                    android:backgroundTint="@color/greenFade"
+                    android:gravity="center">
+
+                    <com.teddybrothers.qrcodereader.IconView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/icon_clipboard"
+                        android:textColor="?attr/colorPrimary"
+                        android:textSize="@dimen/font_size_xlarge" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/rescan"
+                android:layout_width="208dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="@dimen/content_padding_normal"
+                android:background="@drawable/radius_button_primary"
+                android:text="Scan Again"
+                android:textColor="@android:color/white" />
+
+
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

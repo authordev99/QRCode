@@ -1,13 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
+
+
+
 
     <com.otaliastudios.cameraview.CameraView
         android:id="@+id/cameraView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        app:cameraFlash="off"/>
 
-</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:background="@color/semitransparent" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <View
+                android:id="@+id/left"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/semitransparent" />
+            <LinearLayout
+                android:id="@+id/scannerLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_toEndOf="@+id/left"
+                android:layout_toLeftOf="@id/right"
+                android:layout_toRightOf="@id/left"
+                android:layout_toStartOf="@+id/right"
+                android:background="@drawable/ic_viewfinder"
+                android:orientation="horizontal">
+                <View
+                    android:id="@+id/scannerBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorPrimary" />
+            </LinearLayout>
+            <View
+                android:id="@+id/right"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/semitransparent" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:background="@color/semitransparent" />
+    </LinearLayout>
+
+    <include
+        layout="@layout/toolbar_transparent"/>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <com.teddybrothers.qrcodereader.IconView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginBottom="@dimen/content_padding_normal"-->
+<!--            android:text="@string/icon_qrcode_scan"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:textSize="250sp" />-->
+
+<!--        <com.teddybrothers.qrcodereader.IconView-->
+<!--            android:id="@+id/flash"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:text="@string/icon_lamp"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:textSize="50sp" />-->
+<!--    </LinearLayout>-->
+
+</FrameLayout>

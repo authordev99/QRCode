@@ -1,0 +1,176 @@
+<resources>
+    <string name="icon_new_feeds">&#xe0b3;</string>
+    <string name="icon_spaces">&#xea58;</string>
+    <string name="icon_groups">&#xe93e;</string>
+    <string name="icon_games">&#xf11b;</string>
+    <string name="icon_stepathon">&#xe566;</string>
+    <string name="icon_mib">&#xe92c;</string>
+    <string name="icon_new">&#xe938;</string>
+
+    <string name="icon_adhoc">&#xe935;</string>
+    <string name="icon_event">&#xe91a;</string>
+    <string name="icon_survey">&#xe92a;</string>
+    <string name="icon_feedback">&#xe244;</string>
+    <string name="icon_leaderboard">&#xe9ed;</string>
+    <string name="icon_points">&#xe929;</string>
+    <string name="icon_earn">&#xe8b1;</string>
+    <string name="icon_redemption">&#xe54c;</string>
+    <string name="icon_dashboard">&#xe8e5;</string>
+    <string name="icon_auction">&#xe91b;</string>
+    <string name="icon_repo">&#xe617;</string>
+    <string name="icon_announcements">&#xe9a5;</string>
+    <string name="icon_promote">&#xe80d;</string>
+    <string name="icon_directory">&#xe85c;</string>
+    <string name="icon_give_reward">&#xe937;</string>
+    <string name="icon_quiz">&#xe93b;</string>
+    <string name="icon_poll">&#xe801;</string>
+    <string name="icon_quest">&#xe965;</string>
+    <string name="icon_goal">&#xe94b;</string>
+    <string name="icon_faq">&#xe962;</string>
+
+    <string name="icon_notifications">&#xe9bc;</string>
+    <string name="icon_circle">&#xf10c;</string>
+
+    <string name="icon_arrow_drop_up">&#xe5c7;</string>
+    <string name="icon_arrow_drop_down">&#xe5c5;</string>
+    <string name="icon_circle_minus">&#xe041;</string>
+    <string name="icon_keyboard_arrow_up">&#xe316;</string>
+    <string name="icon_qrcode_scan">&#xe93a;</string>
+    <string name="icon_scan_me">&#xe939;</string>
+
+    <string name="icon_cloud_download">&#xe2c0;</string>
+
+    <string name="icon_trophy">&#xe922;</string>
+    <string name="icon_badges">&#xe91c;</string>
+    <string name="icon_location">&#xe923;</string>
+    <string name="icon_location2">&#xe924;</string>
+
+    <string name="icon_done">&#xe876;</string>
+    <string name="icon_done_all">&#xe877;</string>
+    <string name="icon_close">&#xe5cd;</string>
+    <string name="icon_checkmark">&#xe91f;</string>
+    <string name="icon_delete">&#xe872;</string>
+    <string name="icon_crop_free">&#xe3c2;</string>
+
+    <string name="icon_add">&#xe145;</string>
+    <string name="icon_assignment_turned_in">&#xe862;</string>
+
+    <string name="icon_attachment">&#xe972;</string>
+    <string name="icon_arrow_forward">&#xe5c8;</string>
+
+    <string name="icon_widgets">&#xe9d6;</string>
+    <string name="icon_circle_plus">&#xe040;</string>
+
+    <string name="icon_info">&#xe88e;</string>
+    <string name="icon_info_outline">&#xe9a8;</string>
+    <string name="icon_email">&#xe992;</string>
+    <string name="icon_phone">&#xe9dd;</string>
+    <string name="icon_people">&#xe7fb;</string>
+    <string name="icon_mail_outline">&#xe0e1;</string>
+    <string name="icon_e_mail">&#xe931;</string>
+    <string name="icon_facebook">&#xf09a;</string>
+    <string name="icon_skype">&#xeac5;</string>
+    <string name="icon_linkedin">&#xeaca;</string>
+
+    <string name="icon_assignment_ind">&#xe85e;</string>
+    <string name="icon_redeem">&#xe8b1;</string>
+    <string name="icon_folder">&#xe2c7;</string>
+    <string name="icon_folder_open">&#xf07c;</string>
+    <string name="icon_person">&#xe7fd;</string>
+    <string name="icon_person_add">&#xe7fe;</string>
+    <string name="icon_unlock">&#xe008;</string>
+
+    <string name="icon_event_available">&#xe614;</string>
+    <string name="icon_event_busy">&#xe615;</string>
+    <string name="icon_insert_invitation">&#xe24f;</string>
+
+    <string name="icon_camera">&#xe412;</string>
+    <string name="icon_gallery">&#xe410;</string>
+    <string name="icon_video">&#xe04b;</string>
+    <string name="icon_hashtag">&#xf292;</string>
+
+    <string name="icon_image">&#xe3c4;</string>
+    <string name="icon_more_vert">&#xe5d4;</string>
+    <string name="icon_pin">&#xe932;</string>
+
+    <string name="icon_schedule">&#xe8b5;</string>
+    <string name="icon_subject">&#xe8d2;</string>
+    <string name="icon_content_paste">&#xe14f;</string>
+    <string name="icon_face">&#xe85c;</string>
+
+    <string name="icon_heart">&#xe9da;</string>
+    <string name="icon_heart_broken">&#xe9db;</string>
+
+    <string name="icon_send">&#xe163;</string>
+    <string name="icon_triangle_down">&#xe930;</string>
+    <string name="icon_triangle_up">&#xe92f;</string>
+    <string name="icon_arrow_up">&#xe933;</string>
+
+    <string name="icon_star">&#xe994;</string>
+    <string name="icon_filter">&#xe152;</string>
+
+    <string name="icon_flag">&#xf11e;</string>
+    <string name="icon_check">&#xe97b;</string>
+
+    <string name="icon_setting">&#xe9d1;</string>
+
+    <string name="icon_globe">&#xf0b6;</string>
+    <string name="icon_lock">&#xe897;</string>
+
+    <string name="icon_about">&#xe940;</string>
+    <string name="icon_language">&#xe941;</string>
+    <string name="icon_change_password">&#xe943;</string>
+    <string name="icon_report_an_issue">&#xe944;</string>
+    <string name="icon_freshchat">&#xe963;</string>
+    <string name="icon_sign_out">&#xe93f;</string>
+
+    <string name="icon_quest_badge">&#xe947;</string>
+    <string name="icon_completed">&#xe946;</string>
+    <string name="icon_quest_point">&#xe949;</string>
+    <string name="icon_timer">&#xe948;</string>
+    <string name="icon_store">&#xe94a;</string>
+
+    <string name="icon_next">&#xe94c;</string>
+    <string name="icon_file">&#xe95f;</string>
+    <string name="icon_goal_attachment">&#xe95e;</string>
+    <string name="icon_calendar">&#xe95d;</string>
+    <string name="icon_checked">&#xe95b;</string>
+    <string name="icon_refresh">&#xe9c3;</string>
+    <string name="icon_label">&#xe959;</string>
+    <string name="icon_more">&#xe958;</string>
+    <string name="icon_progress_inreview">&#xe955;</string>
+    <string name="icon_reminder">&#xe952;</string>
+    <string name="icon_reviewer">&#xe951;</string>
+    <string name="icon_search">&#xe9cc;</string>
+    <string name="icon_watcher">&#xe94f;</string>
+    <string name="icon_unchecked">&#xe94e;</string>
+    <string name="icon_goal_send">&#xe94d;</string>
+    <string name="icon_progress_rejected">&#xe953;</string>
+    <string name="icon_progress_completed">&#xe960;</string>
+
+    <string name="icon_download">&#xe258;</string>
+    <string name="icon_digit">&#xe964;</string>
+    <string name="icon_update">&#xe934;</string>
+
+    <string name="icon_leave">&#xe9c5;</string>
+    <string name="icon_new_calendar">&#xe978;</string>
+    <string name="icon_achievement_outline">&#xe969;</string>
+    <string name="icon_achievement">&#xe96b;</string>
+    <string name="icon_star_fill">&#xe994;</string>
+    <string name="icon_friends">&#xe99c;</string>
+    <string name="icon_drop_down">&#xe97c;</string>
+    <string name="icon_drop_up">&#xe97f;</string>
+    <string name="icon_chevron_right">&#xe97e;</string>
+    <string name="icon_team">&#xe9e8;</string>
+    <string name="icon_edit">&#xe991;</string>
+    <string name="icon_logout">&#xe9b2;</string>
+    <string name="icon_reward">&#xe974;</string>
+    <string name="icon_history">&#xe96a;</string>
+    <string name="icon_trash">&#xe9e1;</string>
+    <string name="icon_checkin">&#xe9ef;</string>
+    <string name="icon_checkout">&#xe9ee;</string>
+    <string name="icon_clipboard">&#xe14d;</string>
+    <string name="icon_lamp">&#xe91e;</string>
+    <string name="icon_share">&#xe80d;</string>
+
+</resources>

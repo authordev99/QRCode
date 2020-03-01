@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="resultScan"
+            type="com.teddybrothers.qrcodereader.ResultScan" />
+
+
+        <import type="android.view.View" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/content_padding_normal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:visibility="@{resultScan.image!=null ? View.VISIBLE : View.GONE}"
+            app:imageBitmap="@{resultScan.image}"
+            tools:src="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/content_padding_normal"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_xlarge"
+                android:textStyle="bold"
+                app:scanType="@{resultScan.type}"
+                tools:text="Title" />
+
+            <TextView
+                android:id="@+id/textResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{resultScan.result}"
+                android:textSize="@dimen/font_size_xxmedium"
+                tools:text="Title" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{resultScan.dateTime}"
+            android:textSize="@dimen/font_size_xxmedium"
+            tools:text="Title" />
+    </LinearLayout>
+</layout>

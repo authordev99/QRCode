@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_flash"
+        android:title="flash"
+        app:actionLayout="@layout/menu_item_custom"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_history"
+        android:title="history"
+        app:actionLayout="@layout/menu_item_custom"
+        app:showAsAction="always" />
+
+</menu>

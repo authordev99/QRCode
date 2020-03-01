@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "318256316706",
+    "firebase_url": "https://free-qr-code-barcode-reader.firebaseio.com",
+    "project_id": "free-qr-code-barcode-reader",
+    "storage_bucket": "free-qr-code-barcode-reader.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318256316706:android:da85eae66da2102212a57b",
+        "android_client_info": {
+          "package_name": "com.example.freeqrcodebarcodereader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318256316706-j7oqqifl8ml7mgobsnc5jc1mc2cmf4t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.freeqrcodebarcodereader",
+            "certificate_hash": "3ea95a1ba59b469e6f8d7f400daa242a912c851f"
+          }
+        },
+        {
+          "client_id": "318256316706-r6t480oqb50e28qggfefmul1hg5tbtjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCulhMbUI8HoJXGUINKX7OJfRv47KztOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318256316706-r6t480oqb50e28qggfefmul1hg5tbtjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318256316706:android:039ede6ffd8dc03112a57b",
+        "android_client_info": {
+          "package_name": "com.teddybrothers.qrcodereader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318256316706-uek2i6g2k8nu75me1d3p4lv3ktdnui82.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teddybrothers.qrcodereader",
+            "certificate_hash": "3ea95a1ba59b469e6f8d7f400daa242a912c851f"
+          }
+        },
+        {
+          "client_id": "318256316706-r6t480oqb50e28qggfefmul1hg5tbtjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCulhMbUI8HoJXGUINKX7OJfRv47KztOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318256316706-r6t480oqb50e28qggfefmul1hg5tbtjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

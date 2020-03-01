@@ -3,4 +3,26 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+
+    <color name="red">#ff5a5a</color>
+    <color name="redFaded">#ffe6e6</color>
+    <color name="greenFade">#e2f9f0</color>
+    <color name="colorSecondary">#3481fc</color>
+    <color name="yellow">#ffc542</color>
+    <color name="grey">#72788c</color>
+    <color name="lightGrey">#f9f9f9</color>
+    <color name="dark">#252631</color>
+    <color name="paleGrey">#f5f6f9</color>
+    <color name="lightGreyBlue">#b5bbc1</color>
+    <color name="primaryMute">#e8f1ff</color>
+    <color name="weirdGreen">#3dd598</color>
+    <color name="stroke">#f1f1f5</color>
+    <color name="brownGrey">#797979</color>
+    <color name="cardShadow">#99FFFFFF</color>
+    <color name="semitransparent">#9A000000</color>
+    <color name="linkColor">#0000EE</color>
+    <color name="colorBackground">#f5f6f9</color>
+
+
 </resources>
